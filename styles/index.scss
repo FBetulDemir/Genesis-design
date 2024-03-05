@@ -16,6 +16,7 @@
         padding-right: 15%;
     }
 }
+// Landing page styling
 .image-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -84,6 +85,10 @@ img{
     justify-content: center;
     margin: 5%;
 }
+.services-section{
+    display: flex;
+}
+// footer styling starts here
 .footer-nav{
     display: flex;
     justify-content: space-between;
