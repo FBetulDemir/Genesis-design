@@ -1,0 +1,134 @@
+// Landing page styling
+.main-title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+
+}
+.main-title__left{
+    h4, .highlighted{
+        color: $secondaryColor;
+    }
+    h1{
+        color: $primaryColor;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+}
+.main-title__right{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 5%;
+    font-weight: 100;
+    .undeline{
+        p{
+            width: 15%;
+            border-top: 2px solid $primaryColor;
+        }
+    }
+}
+.image-section{
+    margin: 5%;
+}
+// .image-section{
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-template-rows: repeat(4, minmax(300, 1fr));
+//     grid-gap: 2%;
+//     padding: 5%;
+// }
+// img{
+//     object-fit: cover;
+// }
+// .image-section:nth-child(1){
+//     grid-column: 1/2;
+//     grid-row: 1/8;
+// }
+// .image-section:nth-child(2){
+//     grid-column: 2/3;
+//     grid-row: 1/7;
+// }
+// .image-section:nth-child(3){
+//     grid-column: 3/4;
+//     grid-row: 1/11;
+// }
+// .image-section:nth-child(4){
+//     grid-column: 1/2;
+//     grid-row: 8/16;
+// }
+// .image-section:nth-child(5){
+//     grid-column: 2/3;
+//     grid-row: 7/14;
+// }
+// .image-section:nth-child(6){
+//     grid-column: 3/4;
+//     grid-row: 11/18;
+// }
+// .image-section:nth-child(7){
+//     grid-column: 1/2;
+//     grid-row: 16/24;
+// }
+.section-one{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    .section-one_left{
+        width: 60%;
+        margin: 5%;
+    }
+    .table-info{
+        width: 50%;
+        float: right;
+        margin: 5%;
+    }
+}
+.table-info tr{
+    border-bottom: 2px solid black;
+    padding: 2%;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+.table-info td{
+    border-bottom: 2px solid #D8D8D8;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+}
+.services-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 5%;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    h2{
+        color: #111111;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    li{
+        list-style: none;
+        font-weight: 100;
+        font-size: 18px;
+    }
+}
+
+.awards-section{
+    display: flex;
+    justify-content: space-around;
+    h4{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    p{
+        font-weight: 100;
+        font-size: 12px;
+    }
+    // .inline-item{
+    //     position: relative;
+    //     left: 20px;
+    // }
+}
