@@ -17,29 +17,3 @@
         padding-right: 15%;
     }
 }
-// footer styling starts here
-footer{
-    padding: 7%;
-}
-.footer-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.right-nav{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 50%;
-    .footer-links, .social-links{
-        margin-left: 30%;
-    }
-    a{
-        text-decoration: none;
-        color: #111111;
-        font-size: 12px;
-        font-weight: 600;
-        cursor: pointer;
-    }
-
-}
