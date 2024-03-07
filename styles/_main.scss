@@ -58,10 +58,26 @@
 }
 .last-section{
     margin: 3% 5%;
+
 }
 .awards-section{
     display: flex;
     justify-content: space-between;
     justify-items: flex-end;
-}
 
+}
+.awards__up__down{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 6%;
+    h4{
+        grid-row: 1/2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .genesis__font{
+        color: $darkGray;
+        font-weight: 100;
+    }
+}
